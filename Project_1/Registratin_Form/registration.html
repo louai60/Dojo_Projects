@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <label for="fname">First Name: <span class="required">*</span></label><br>
+        <input type="text" id="fname" name="fname" required><br>
+        <label for="lname">Last Name: <span class="required">*</span></label><br>
+        <input type="text" id="lname" name="lname" required><br>
+        <label for="email">Email Address: <span class="required">*</span></label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="pwd">Password: <span class="required">*</span></label><br>
+        <input type="password" id="pwd" name="pwd" required><br>
+        <label for="cpwd">Confirm Password: <span class="required">*</span></label><br>
+        <input type="password" id="cpwd" name="cpwd" required><br>
+        <label for="bday">Birthday: <span class="required">*</span></label><br>
+        <input type="month" id="bday" name="bday" required><br>
+        <label for="gender">Gender Identity: </label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="non-binary" name="gender" value="non-binary">
+        <label for="non-binary">Non-binary</label><br>
+        <input type="radio" id="pref-not-answer" name="gender" value="pref-not-answer">
+        <label for="pref-not-answer">I prefer not to answer</label><br>
+        <label for="description">A short description about myself: </label><br>
+        <textarea id="description" name="description"></textarea><br>
+        <label for="language">Favorite Language: </label><br>
+        <select id="language" name="language">
+            <option value="javascript">JavaScript</option>
+        </select><br>
+        <label for="email-updates">Yes, I would like to receive periodic email updates</label><br>
+        <input type="checkbox" id="email-updates" name="email-updates"><br>
+        <input type="submit" value="Create Account">
+    </form>
+</body>
+</html>
