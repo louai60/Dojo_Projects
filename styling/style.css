@@ -1,0 +1,31 @@
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    height: 50px;
+    margin-bottom: 10px;
+
+}
+
+span {
+    color: aqua;
+}
+  
+.projects {
+    font-size: 18px;
+    text-align: center;
+    background-color: purple;
+    height: 40px;
+    margin-bottom: 10px;
+}
+  
+.contact {
+    text-align: right;
+    font-size: 16px;
+    color: blue;
+    background: aquamarine;
+    cursor: pointer;   
+    height: 40px;
+}
