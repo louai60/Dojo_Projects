@@ -1,0 +1,35 @@
+body {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+input {
+    border-radius: 70px;
+    text-align: center;
+    background-color: white;
+    border-color: aqua;
+    margin-bottom: 20px;
+}
+
+::placeholder {
+    color: aqua;
+}
+
+.plus-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 50%;
+}  
+
+.create-account {
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: blue;
+    border-color: black;
+    box-shadow:  8px 4px rgb(0, 0, 0);
+}
