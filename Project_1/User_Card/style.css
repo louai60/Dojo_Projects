@@ -1,16 +1,18 @@
 body {
     font-family: "Helvetica Neue", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 .card-container {
-    width: 500px;
+    width: 650px;
     border-color: black;
     border: 2px solid #000;
     justify-content: center;
 }
 
 .up {
-    width: 340px; 
+    width: 490px; 
     float: left; 
     background-color: aqua; 
     padding: 80px; 
