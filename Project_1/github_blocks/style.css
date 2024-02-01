@@ -1,0 +1,38 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    display: inline-block;
+    margin: 10px;
+}
+
+.Block1 {
+    background-color: aqua;
+    
+}
+
+.Block2 {
+    background-color: rgb(255, 15, 255);
+}
+
+.Block3 {
+    background-color: aliceblue;
+}
+
+img {
+    width: 30%;
+    margin: 10px;  
+}
+
+p {
+    text-align: center;
+}
+
+span {
+    color: aqua;
+}
